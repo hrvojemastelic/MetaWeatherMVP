@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MetaWeatherApp</string>
+    <string name="title_activity_maps">AIzaSyBhPw4H9mBhi9sSTobHrL6ouAWdyot2hkk</string>
+    <string name="search_hint">Name of city</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Map">map</string>
+    <string name="Forecast">forecast</string>
+</resources>

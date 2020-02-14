@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/corners_style"
+    android:backgroundTint="@color/item_backroung"
+    android:layout_margin="2dp"
+    android:layout_height="wrap_content">
+
+
+
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:padding="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weather_imageview"
+                    />
+
+    <TextView
+        android:typeface="sans"
+        android:layout_centerHorizontal="true"
+        android:textSize="16dp"
+        android:padding="4dp"
+        android:layout_below="@+id/weather_imageview"
+        android:text="Date"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        />
+    <TextView
+        android:typeface="sans"
+        android:layout_centerHorizontal="true"
+        android:textSize="16dp"
+        android:padding="4dp"
+        android:text="max temperature"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/max_temperature"
+        android:layout_below="@+id/date"/>
+    <TextView
+        android:typeface="sans"
+        android:layout_centerHorizontal="true"
+        android:textSize="16dp"
+        android:padding="4dp"
+        android:text="max temperature"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/min_temperature"
+        android:layout_below="@+id/max_temperature"/>
+    <TextView
+        android:typeface="sans"
+        android:layout_centerHorizontal="true"
+        android:textSize="16dp"
+        android:padding="4dp"
+        android:text="humidity"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/humidity"
+        android:layout_below="@+id/min_temperature"/>
+
+
+</RelativeLayout>
